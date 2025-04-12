@@ -1,5 +1,8 @@
 The Goeasyship_Shipping module implements integration with the Easyship shipping carrier.
 ```
-composer config repositories.hgati-easyship git git@github.com:hgati/easyship-magento2-plugin.git
-composer require hgati/easyship-magento2-plugin:dev-master
+cd /tmp
+wget https://github.com/easyship/easyship-magento2-plugin/archive/refs/heads/master.zip
+unzip master.zip
+mkdir -p /var/www/magento/app/code/Goeasyship/Shipping
+cp -R easyship-magento2-plugin-master/* /var/www/magento/app/code/Goeasyship/Shipping
 ```

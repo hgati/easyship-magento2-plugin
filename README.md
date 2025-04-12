@@ -1,4 +1,5 @@
 The Goeasyship_Shipping module implements integration with the Easyship shipping carrier.
+- No Packgist. Use download directly.
 ```
 cd /tmp
 wget https://github.com/easyship/easyship-magento2-plugin/archive/refs/heads/master.zip
